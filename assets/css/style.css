@@ -1,0 +1,33 @@
+header{
+    background-color: orange;
+    height: 50px;
+}
+
+.h1_text{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.tab{
+    float: right;
+}
+
+img{
+    height:200px;
+}
+
+.main_body{
+    background-color: pink;
+    height: 500px;
+    width: 960px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
