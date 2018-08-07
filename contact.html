@@ -2,17 +2,68 @@
     <head>
         <title>Chi's Portfolio</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+    
 
     <body>
         
-        <h1>Chi Kim</h1>
         
-        <div>Contact</div>
-        <div>Name</div>
-        <div>E-mail</div>
-        <div>Message</div>
-        <div>Submit</div>
+        <header>
+            
+            <div class="header_sections">
+
+                <h1 class="h1_text initial_dent heading_fonts" id="header_sections_first">Chi Kim</h1>
+
+                <div id="header_sections_second">
+
+                    <nav class="tab other_fonts">
+            
+                        <button class="tablinks" onclick="open(About)">About</button>
+                        <button class="tablinks button_top_left" onclick="open(Portfolio)">Portfolio</button>
+                        <button class="tablinks button_top_left" onclick="open(Contact)">Contact</button>
+    
+                    </nav>
+                
+                </div>
+
+            </div>
+
+            <div class="top_line"></div>
+
+        </header>
+
+        <section>
+        
+            <div class="main_body initial_dent">
+
+                    <h2 class="title heading_fonts">Contact</h2>
+
+                    <div class="middle_line"></div>
+
+        
+        
+                    <br>
+                    
+                    <label class="second_dent ">Name</label>
+                    <br>
+                    <input class="second_dent" name="name" placeholder="Chi Kim">
+                    <br>
+                    <br>
+                    <label class="second_dent">E-mail</label>
+                    <input class="second_dent" name="E-mail" placeholder="wondlek@hotmail.com">
+                    <br>
+                    <br>
+                    <label class="second_dent">Message</label>
+                    <textarea class="second_dent" name="message"></textarea>
+                    <br>
+                    <br>
+                    <button class="second_dent button_green" name="Submit">Submit</button>
+                   
+
+            </div>
+            
+        </section>
+
 
     </body>
