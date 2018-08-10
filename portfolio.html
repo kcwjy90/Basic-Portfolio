@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+
+<html>
+    
     <head>
         <title>Chi's Portfolio</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
@@ -13,15 +17,15 @@
         
                         <h1 class="h1_text initial_dent heading_fonts" id="header_sections_first">Chi Kim</h1>
         
-                        <div id="header_sections_second">
-        
-                            <nav class="tab other_fonts">
-                    
-                                <button class="tablinks" onclick="open(About)">About</button>
-                                <button class="tablinks button_top_left" onclick="open(Portfolio)">Portfolio</button>
-                                <button class="tablinks button_top_left" onclick="open(Contact)">Contact</button>
-            
-                            </nav>
+                        <!-- deleted tab class -->
+                        <div id="header_sections_second other_fonts">
+                        
+                                <a class="button_top_left" href="contact.html">Contact</a>
+                                <a class="button_top_left" href="portfolio.html">Portfolio</a>
+                                <a class="button_top" href="index.html">About</a>
+                                <!-- <a href="index.html">About</a>
+                                <a class="button_top_left" href="portfolio.html">Portfolio</a>
+                                <a class="button_top_left" href="contact.html">Contact</a> -->
                         
                         </div>
         
@@ -33,21 +37,71 @@
 
                 <section>
         
-                        <div class="main_body initial_dent">
+                        <div class="main_body initial_dent" id="elongated">
 
                                 <h2 class="title heading_fonts">Portfolio</h2>
 
                                 <div class="middle_line"></div>
-            
-                                <img src="Basic-Portfolio\assets\images\hiking.jpeg" alt="hiking">
-                                <div class="second_dent">Hiking</div>
-                                <div class="second_dent">Music</div>
-                                <div class="second_dent">Animal</div>
-                                <div class="second_dent">Food</div>
-                                <div class="second_dent">Color</div>
 
-                </div>
+                                <div class="container position_image image_float">
+                                    <img class="image_size" src="assets/images/hiking.jpeg" alt="hiking">
+                                    <div class="box_for_image">
+                                        <div class="centered">Hiking</div>
+                                    </div>
+                                </div>
+
+                                <div class="container position_image image_float">
+                                    <img class="image_size" src="assets/images/music.jpg" alt="music">
+                                    <div class="box_for_image">
+                                        <div class="centered">Music</div>
+                                    </div>
+                                </div>
+
+                                <div class="container position_image image_clear">
+                                    <img class="image_size" src="assets/images/chinchilla.jpg" alt="animal">
+                                    <div class="box_for_image">
+                                        <div class="centered">Animal</div>
+                                    </div>
+                                </div>
+
+                                <div class="container position_image image_float">
+                                    <img class="image_size" src="assets/images/korean food.jpg" alt="food">
+                                    <div class="box_for_image">
+                                        <div class="centered" id="korean_food">Korean Food</div>
+                                    </div>
+                                </div>
+
+                                <div class="container position_image image_clear">
+                                    <img class="image_size" src="assets/images/green tea.jpg" alt="green">
+                                    <div class="box_for_image">
+                                        <div class="centered">Green</div>
+                                    </div>
+                                </div>
+
+
+<!--                                 
+                                    <img class="position_image" src="assets/images/hiking.jpeg" alt="hiking">
+                                    <div class="second_dent position_image_writing position_one">Hiking</div>
+                                    <img class="position_image" src="assets/images/music.jpg" alt="music">
+                                    <div class="second_dent position_image_writing position_two">Music</div>
+                                    <img class="position_image" src="assets/images/chinchilla.jpg" alt="chinchilla">
+                                    <div class="second_dent position_image_writing position_three">Animal</div>
+                                    <img class="position_image" src="assets/images/korean food.jpg" alt="food">
+                                    <div class="second_dent position_image_writing position_four">Food</div>
+                                    <img class="position_image" src="assets/images/green tea.jpg" alt="green">
+                                    <div class="second_dent position_image_writing position_five">Color</div>
+                                 -->
+                                
+
+                        </div>
             
                 </section>
 
     </body>
+
+    <footer>
+            <div class="bottom_line other_fonts"><p class="copy_state">Copyright &copy</p></div>
+    </footer>
+
+</html>
+    

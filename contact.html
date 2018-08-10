@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+
+<html>
+    
     <head>
         <title>Chi's Portfolio</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     
@@ -13,18 +17,21 @@
             
             <div class="header_sections">
 
+                <div>
                 <h1 class="h1_text initial_dent heading_fonts" id="header_sections_first">Chi Kim</h1>
+                </div>
 
-                <div id="header_sections_second">
-
-                    <nav class="tab other_fonts">
-            
-                        <button class="tablinks" onclick="open(About)">About</button>
-                        <button class="tablinks button_top_left" onclick="open(Portfolio)">Portfolio</button>
-                        <button class="tablinks button_top_left" onclick="open(Contact)">Contact</button>
+                <!-- deleted tab claas -->
+                <div id="header_sections_second other_fonts">
+         
+                        <a class="button_top_left" href="contact.html">Contact</a>
+                        <a class="button_top_left" href="portfolio.html">Portfolio</a>
+                        <a class="button_top" href="index.html">About</a>
+                                          
+                        <!-- <a href="index.html">About</a>
+                        <a class="button_top_left" href="portfolio.html">Portfolio</a>
+                        <a class="button_top_left" href="contact.html">Contact</a> -->
     
-                    </nav>
-                
                 </div>
 
             </div>
@@ -67,3 +74,9 @@
 
 
     </body>
+
+    <footer>
+            <div class="bottom_line other_fonts"><p class="copy_state">Copyright &copy</p></div>
+    </footer>
+
+</html>
