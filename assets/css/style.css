@@ -1,56 +1,91 @@
 
+/* default and index page */
+
+/* HEADER */
+/* aligning for title to fit body */
 .initial_dent {
     margin-left: 150px;
     margin-bottom: 0;
 }
 
+/* aligning for words to fit w/i body <div> as parent */
 .second_dent {
     margin-left: 30px;
 }
 
 /* backtround-color: gray */
+/* full header going across the entire head */
 header{
-    background-color:white;
+    background-color:#ffffff;
     height: 80px;
     margin: 0;
 }
 
 /* background-color: green */
+/* header section only above 960px */
 .header_sections{
     width:960px;
-    background-color: white;
+    background-color: #ffffff;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 /* 여기서고침 그 CHI KIM center */
+/* length of teal colored header, floating left. 30% of 960px */
 #header_sections_first{
     float: left;
     width: 30%;
-    /* display: flex; */
     align-items: center;
 }
 
+/* buttons in the header */
+a{
+    width:90px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #cccccc;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    margin-top: 0px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+    top: 40px;
+}
+
+/* Button height and divider height*/
+.button_top_left{
+    border-left: 1px #cccccc solid;
+    height: 9%;
+}
+
+.button_top{
+    height: 9%;
+}
+
+
+/* length of white colored header, floating right. floating right, 70% of 960px */
 #header_sections_second{
-    background-color: white;
+    background-color: #ffffff;
     float: right;
     width: 70%;
     height: 80px;
 }
 
-
+/* background image/color */
 body {
     background-image: url("../images/sun_pattern.png");
-    background-color: gray;
-   
+    /* background-color: rgb(179, 177, 177); */
 }
 
  /* I NEED HELP figuring out extending the centering CHI KIM */
+ /* CHI KIM word inside header_sections_first  */
 .h1_text{
     background-color: #4aaaa5;
-    color: white;
+    color: #ffffff;
     width: 25%;
     height: 40px;
     padding: 20px;
@@ -61,18 +96,15 @@ body {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;    
-    /* vertical-align: middle; */
 }
 
-h1{
-    padding: 
-}
 
-/* .tab{
-    float: right;
-    z-index: right;
-} */
 
+
+
+
+/* BODY */
+/* main heading inside the body */
 .title{
     position: relative;
     top: 25px;
@@ -85,6 +117,7 @@ h1{
     font-weight: bold;
 }
 
+/* face picture in index */
 .face_size{
     height: 200px;
     margin: 30px;
@@ -92,21 +125,20 @@ h1{
 }
 
 /* background-color: pink */
+/* main body, nesting other elements */
 .main_body{
-    background-color: white;
+    background-color: #ffffff;
     height: 600px;
     width: 960px;
     margin-top: 50px;
     margin-bottom: 80px;
     margin-left:auto;
-    margin-right:auto;
-    /* padding-bottom:50px;
-    display: table; */
-    
+    margin-right:auto;   
 }
 
+/* specifically for portfolio, for longer contents */
 #elongated{
-    background-color: white;
+    background-color: #ffffff;
     height: 900px;
     width: 960px;
     margin-top: 50px;
@@ -115,12 +147,13 @@ h1{
     margin-right:auto;
 }
 
+/* size and spacing for body p in index*/
 p {
     font-size: 20px;
     margin: 30px;
-
 }
 
+/* extra line under header */
 .top_line {
     background-color: #cccccc;
     height: 3px;
@@ -128,6 +161,7 @@ p {
     clear: both;
 }
 
+/* extra line in the body */
 .middle_line {
     background-color: #dddddd;
     height: 3px;
@@ -140,39 +174,41 @@ p {
 }
 
 
-/* ADDING height changes everything...what the.. */
+/* extra line above footer */
 .bottom_line {
     background-color: #4aaaa5;
-    height: 3px;
+    height: 5px;
     padding: 0;
     border: 0;
     margin: 0;    
     
 }
 
+/* main gray footer */
 footer{
     background-color: #666666;
     text-align: center;
     height: 50px;
     margin: 0;
     padding: 0;
-        position: relative;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-
 }
 
+/* copyright within footer */
 .copy_state{
-    color: white;
+    color: #ffffff;
     font-size:10px;
     position: relative;
     top: 40px;
-    padding: 0 0 0 0;
+    padding: 0;
     border: 0;
     margin: 0;
-
 }
+
+/* spacing for main body */
 body{
     margin: 0;
     padding: 0;
@@ -181,81 +217,53 @@ body{
 
 
 
-/* Fonts */
-
-.heading_fonts{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.other_fonts{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
 
 
 
+/*contacts page*/
 
-/*contacts*/
-
-
+/* width and height for name and e-mail  */
 input{
     width: 900px;
     height: 20px;
 }
 
+/* width and hegith for message */
 textarea{
     width: 900px;
     height: 250px;
 }
-   
+
+/* submit button */
 .button_green{
     width:100px;
     height: 30px;
     background-color: #4aaaa5;
-    color: white;
-}
-
-a{
-    width:90px;
-    height: 30px;
-    background-color: white;
-    color: #cccccc;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-    margin-top: 0px;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    float: right;
-    top: 40px;
-
-}
-
-/* border-left: red; */
-.button_top_left{
-    border-left: 1px #666666 solid;
-    height: 9%;
-}
-
-.button_top{
-    height: 9%;
+    color: #ffffff;
 }
 
 
-/* Portfolio */
 
+
+
+
+
+
+/* Portfolio page*/
+
+/* main <div> containing the image, labeling <div> and words */
 .container{
     position:relative;
     text-align: center;
 }
 
 
+/* images, floating and clear/floating */
 /* color: purple */
 .position_image{
     position: relative;
     text-align: center;
-    color: white;
+    color: #ffffff;
     height: 200px;
     width: 270px;
     margin: 20px 30px 30px 20px;
@@ -270,11 +278,8 @@ a{
     float: left;
 }
 
-/* .image_clear_comp{
-    clear: both;
-    margin-top: 40px;
-} */
 
+/* div for labeling on top of images */
 .box_for_image{
     height: 50px;
     width: 270px;
@@ -284,45 +289,44 @@ a{
     z-index:1;
     background-color: #4aaaa5;
 }
+
+/* words on the labels */
 .centered {
     position: absolute;
     top: 30%;
     left: 42%;
 }
 
+/* words leangthy. centering */
 #korean_food{
     position: absolute;
     top: 30%;
     left: 33%;
 }
 
+/* size of the image */
 .image_size{
     height: 200px;
     width: 270px;
     margin: 20px 30px 30px 10px;
     }
-/* 
-.position_image_writing{
-    position: relative;
-    z-index: +1;
-    float: left;
-    color: red;
-    background-color: green;
-    height: 50px;
-    width: 30px;
+    
+
+
+
+    
+
+
+    
+/* Fonts */
+
+/* font for heading */
+.heading_fonts{
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.position_one{ */
-    /* top: 75px;
-    left: -340px;
-    width: 300px; */
+/* font for <p> and <buttons> */
+.other_fonts{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
-
-
-/* what does thisdo */
-/* html {
-    overflow-y: scroll;
- } */
-
-
- /* 제일 위에 chikim, height을 줄이고 padding 을 넣음 */
